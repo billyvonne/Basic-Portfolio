@@ -1,5 +1,6 @@
 body {
-    background-image: url(assest/images/wild_oliva.pgn) repeat fixed center;
+    background:blue;
+    background-image: url("../images/bg.png");
     margin: 0;
     padding: 0;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -7,89 +8,3 @@ body {
     line-height: 1.5;
 }
 
-.billy {
-    color: white;
-    background-color: #4aaaa5;
-    text-align: center;
-    margin: 0;
-    padding-top: 5px;
-    padding-bottom: 15px;
-    font-family: "Georgia", "Times", "Times New Roman", serif;
-}
-
-#bio-image {
-    margin-right: 20px;
-    height: 200px;
-    width: 200px;
-}
-
-.container {
-    width: 960px;
-    margin: 0 auto;
-}
-
-
-.bio, .connect,#bio-image {
-    float: left;
-}
-
-.bio{
-    width: 650px;
-    background-color: white;
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-}
-
-.connect {
-    width: 270px;
-    background-color: white;
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-}
-
-ul {
-    list-style-type: none;
-    overflow: hidden;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-    text-decoration: none;
-}
-body {font-family: Arial, Helvetica, sans-serif;}
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-.contactpg {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
